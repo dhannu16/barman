@@ -1,0 +1,47 @@
+body{
+  align-items: center;
+  background-color: #B4C3E3;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.flex-container{
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  font-family: ubuntu;
+  height: 330px;
+  justify-content: center;
+  width: 540px;
+}
+.item2{
+  align-self: flex-end;
+  font-family: ubuntu;
+}
+.item1{
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+
+.item3{
+  align-self: center;
+}
+.button{
+  background-color: white;
+   bottom: 25px;
+  cursor:pointer;
+  font-family: ubuntu;
+  line-height: 35px;
+  outline: inherit;
+  position:relative;
+  width: 120px;
+}
+.mg{
+    bottom: 45px;
+    margin-right: 10px;
+    position:relative;
+}
+
+
+
